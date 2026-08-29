@@ -1,138 +1,49 @@
 export const projects = [
   {
-    id: "ai-smart-contract-auditor",
+    id: "evm-lending-protocol",
 
-    title: "AI Smart Contract Auditor",
+    title: "Production-Grade EVM Lending Protocol",
 
-    roles: [
-      "AI Developer",
-      "Blockchain Developer"
-    ],
+    shortTitle: "EVM Lending Protocol",
+
+    category: ["Ethereum / Solidity"],
+
+    roles: ["Blockchain Developer", "Solidity Developer"],
+
+    status: "Completed",
+
+    featured: true,
+
+    description:
+      "A modular overcollateralized DeFi lending protocol with multi-asset lending, interest accrual, risk management, liquidations, Chainlink price feeds and production-oriented security controls.",
 
     technologies: [
-      "AI",
-      "OpenAI",
-      "LLM",
-      "RAG",
       "Solidity",
-      "Smart Contracts"
-    ],
-
-    impact: [
-      "AI Applications",
-      "Blockchain",
-      "Security",
-      "Automation"
-    ],
-
-    description:
-      "AI-powered smart contract analysis application designed to combine artificial intelligence with blockchain security workflows.",
-
-    links: {
-      live: "",
-      github: "",
-      documentation: "",
-      contract: ""
-    }
-  },
-
-  {
-    id: "ai-blockchain-tutor",
-
-    title: "AI Blockchain Tutor",
-
-    roles: [
-      "AI Developer",
-      "Full Stack Developer",
-      "Blockchain Developer"
-    ],
-
-    technologies: [
-      "AI",
-      "LLM",
-      "Blockchain"
-    ],
-
-    impact: [
-      "AI Applications",
-      "Education",
-      "Blockchain"
-    ],
-
-    description:
-      "An AI-powered learning application focused on helping users understand blockchain concepts.",
-
-    links: {
-      live: "",
-      github: "",
-      documentation: ""
-    }
-  },
-
-  {
-    id: "solana-crowdfunding",
-
-    title: "Solana Crowdfunding Platform",
-
-    roles: [
-      "Rust Developer",
-      "Blockchain Developer"
-    ],
-
-    technologies: [
-      "Rust",
-      "Solana",
-      "Anchor",
-      "Web3"
-    ],
-
-    impact: [
-      "Blockchain",
+      "Ethereum",
+      "Foundry",
+      "Chainlink",
+      "OpenZeppelin",
       "DeFi",
-      "Decentralized Applications"
+      "EVM"
     ],
 
-    description:
-      "A decentralized crowdfunding platform built around Solana blockchain technology.",
-
-    links: {
-      live: "",
-      github: "",
-      documentation: ""
-    }
-  },
-
-  {
-    id: "solana-nft-marketplace",
-
-    title: "Solana NFT Marketplace",
-
-    roles: [
-      "Rust Developer",
-      "Blockchain Developer"
+    highlights: [
+      "Scaled-balance interest accounting",
+      "Multi-asset collateral and borrowing",
+      "Health-factor based liquidations",
+      "Chainlink oracle integration",
+      "Fuzz and invariant testing",
+      "227 passing tests",
+      "Ethereum Sepolia deployment"
     ],
 
-    technologies: [
-      "Rust",
-      "Solana",
-      "Anchor",
-      "NFT"
-    ],
+    impact:
+      "Demonstrates production-oriented DeFi protocol architecture, smart-contract security, risk management and advanced Solidity testing.",
 
-    impact: [
-      "Blockchain",
-      "NFT",
-      "Decentralized Applications"
-    ],
+    github:
+      "https://github.com/vishalmathuri/Production-grade-EVM-lending-protocol",
 
-    description:
-      "A Solana-based NFT marketplace project focused on blockchain application development.",
-
-    links: {
-      live: "",
-      github: "",
-      documentation: ""
-    }
+    live: ""
   },
 
   {
@@ -140,128 +51,312 @@ export const projects = [
 
     title: "NFT Marketplace",
 
-    roles: [
-      "Blockchain Developer",
-      "Full Stack Developer"
+    shortTitle: "NFT Marketplace",
+
+    category: ["Ethereum / Solidity"],
+
+    roles: ["Blockchain Developer", "Web3 Developer"],
+
+    status: "Completed",
+
+    featured: true,
+
+    description:
+      "A full-stack NFT marketplace on Ethereum Sepolia supporting NFT minting, listing and purchasing with wallet integration and decentralized metadata storage.",
+
+    technologies: [
+      "Solidity",
+      "ERC-721",
+      "OpenZeppelin",
+      "React.js",
+      "Ethers.js",
+      "Node.js",
+      "Express.js",
+      "IPFS",
+      "Pinata"
     ],
+
+    highlights: [
+      "ERC-721 NFT minting",
+      "NFT listing and purchasing",
+      "MetaMask wallet integration",
+      "IPFS-based image and metadata storage",
+      "Reentrancy protection",
+      "Ethereum Sepolia deployment"
+    ],
+
+    impact:
+      "Demonstrates end-to-end Web3 development across smart contracts, wallet interactions, decentralized storage, frontend and backend infrastructure.",
+
+    github:
+      "https://github.com/vishalmathuri/NFT-Marketplace",
+
+    live:
+      "https://nft-marketplace-ecru-rho.vercel.app"
+  },
+
+  {
+    id: "cross-chain-protocol",
+
+    title: "Cross-Chain Protocol",
+
+    shortTitle: "Cross-Chain Protocol",
+
+    category: ["Ethereum / Solidity", "Rust / Solana"],
+
+    roles: ["Blockchain Developer", "Rust Developer"],
+
+    status: "In Development",
+
+    featured: true,
+
+    description:
+      "Building a cross-chain protocol designed to connect EVM smart contracts with another blockchain environment through a relayer-based messaging architecture.",
+
+    technologies: [
+      "Solidity",
+      "Rust",
+      "EVM",
+      "Cross-Chain Messaging",
+      "Relayer",
+      "Foundry"
+    ],
+
+    highlights: [
+      "Cross-chain messaging architecture",
+      "EVM smart-contract layer",
+      "Rust-based components",
+      "Relayer design",
+      "Message verification"
+    ],
+
+    impact:
+      "Expands beyond single-chain application development into blockchain interoperability, protocol architecture and distributed message handling.",
+
+    github:
+      "https://github.com/vishalmathuri/Cross-Chain-Protocol",
+
+    live: ""
+  },
+
+  {
+    id: "solana-crowdfunding",
+
+    title: "Solana Crowdfunding Protocol",
+
+    shortTitle: "Solana Crowdfunding",
+
+    category: ["Rust / Solana"],
+
+    roles: ["Rust Developer", "Blockchain Developer"],
+
+    status: "In Development",
+
+    featured: true,
+
+    description:
+      "Building a Rust and Solana crowdfunding protocol for campaign creation, SOL contributions, funding goals, deadlines, withdrawals and contributor refunds.",
+
+    technologies: [
+      "Rust",
+      "Solana",
+      "Anchor",
+      "PDAs",
+      "TypeScript",
+      "Wallet Adapter"
+    ],
+
+    highlights: [
+      "Campaign creation",
+      "SOL contributions",
+      "PDA-based state",
+      "Campaign authorization",
+      "Deadline handling",
+      "Contributor refunds"
+    ],
+
+    impact:
+      "Demonstrates Rust-based blockchain development, Solana account architecture and on-chain authorization using Anchor and PDAs.",
+
+    github:
+      "https://github.com/vishalmathuri/Solana-Crowdfunding-Protocol",
+
+    live: ""
+  },
+
+  {
+    id: "scai-warrior",
+
+    title: "Scai Warrior — Web3 Telegram Game",
+
+    shortTitle: "Scai Warrior",
+
+    category: ["Ethereum / Solidity"],
+
+    roles: ["Blockchain Developer", "Web3 Developer"],
+
+    status: "Completed",
+
+    featured: false,
+
+    description:
+      "A Web3-enabled Telegram gaming application combining a Telegram bot, blockchain smart contracts, backend infrastructure and browser-based game components.",
 
     technologies: [
       "Solidity",
       "Ethereum",
-      "ERC-721",
-      "React",
-      "Node.js",
+      "JavaScript",
       "Ethers.js",
-      "IPFS"
-    ],
-
-    impact: [
-      "Blockchain",
-      "NFT",
-      "Full Stack",
+      "Telegram",
       "Web3"
     ],
 
-    description:
-      "Decentralized NFT marketplace for minting, listing and trading NFTs.",
+    highlights: [
+      "Telegram game integration",
+      "Smart-contract based game logic",
+      "Wallet connectivity",
+      "Backend and bot infrastructure"
+    ],
 
-    links: {
-      live: "",
-      github: "",
-      contract: ""
-    }
+    impact:
+      "Demonstrates blockchain integration inside a non-traditional application environment using Telegram, wallets and smart contracts.",
+
+    github:
+      "https://github.com/vishalmathuri/ScaiWarrior_bot",
+
+    live:
+      "https://scai-warrior-bot.vercel.app"
   },
 
   {
-    id: "lms",
+    id: "rbac-dapp",
 
-    title: "LMS",
+    title: "RBAC Smart Contract DApp",
 
-    roles: [
-      "Full Stack Developer",
-      "Backend Developer"
-    ],
+    shortTitle: "RBAC DApp",
 
-    technologies: [
-      "React",
-      "Node.js",
-      "Database",
-      "Authentication"
-    ],
+    category: ["Ethereum / Solidity"],
 
-    impact: [
-      "SaaS",
-      "Education",
-      "Full Stack"
-    ],
+    roles: ["Solidity Developer", "Blockchain Developer"],
+
+    status: "Completed",
+
+    featured: false,
 
     description:
-      "A database-driven learning management application.",
+      "A role-based access control DApp implementing Admin, Editor and Viewer permissions through Solidity smart contracts and wallet-based authorization.",
 
-    links: {
-      live: "",
-      github: ""
-    }
+    technologies: [
+      "Solidity",
+      "OpenZeppelin",
+      "AccessControl",
+      "Hardhat",
+      "Ethers.js",
+      "MetaMask"
+    ],
+
+    highlights: [
+      "Role-based authorization",
+      "Admin role management",
+      "OpenZeppelin AccessControl",
+      "Wallet-based authentication",
+      "Smart-contract unit testing"
+    ],
+
+    impact:
+      "Demonstrates secure authorization patterns and permission management for decentralized applications.",
+
+    github:
+      "https://github.com/vishalmathuri/rbac-smart-contract-dapp",
+
+    live: ""
   },
 
   {
-    id: "job-queue-system",
+    id: "soulbound-identity",
 
-    title: "Job Queue System",
+    title: "Soulbound Identity System",
 
-    roles: [
-      "Backend Developer"
-    ],
+    shortTitle: "Soulbound Identity",
 
-    technologies: [
-      "Node.js",
-      "Redis",
-      "Job Queues"
-    ],
+    category: ["Ethereum / Solidity"],
 
-    impact: [
-      "Backend",
-      "Scalability",
-      "Automation"
-    ],
+    roles: ["Solidity Developer", "Blockchain Developer"],
+
+    status: "Completed",
+
+    featured: false,
 
     description:
-      "Backend job processing system designed around queues and asynchronous processing.",
+      "A decentralized identity system using non-transferable Soulbound Tokens to represent permanent blockchain-based credentials.",
 
-    links: {
-      live: "",
-      github: ""
-    }
+    technologies: [
+      "Solidity",
+      "ERC-721",
+      "OpenZeppelin",
+      "Hardhat",
+      "Ethers.js",
+      "Ethereum"
+    ],
+
+    highlights: [
+      "Non-transferable identity tokens",
+      "Admin-controlled credential issuance",
+      "Credential revocation",
+      "OpenZeppelin contracts",
+      "Sepolia deployment"
+    ],
+
+    impact:
+      "Demonstrates blockchain identity, credential issuance and non-transferable token design using Solidity.",
+
+    github:
+      "https://github.com/vishalmathuri/soulbound-identity",
+
+    live: ""
   },
 
   {
-    id: "url-shortener",
+    id: "task-manager",
 
-    title: "URL Shortener Service",
+    title: "Blockchain Task Manager",
 
-    roles: [
-      "Backend Developer",
-      "Full Stack Developer"
-    ],
+    shortTitle: "Task Manager",
 
-    technologies: [
-      "Node.js",
-      "REST API",
-      "Database"
-    ],
+    category: ["Ethereum / Solidity"],
 
-    impact: [
-      "Backend",
-      "API",
-      "Scalability"
-    ],
+    roles: ["Solidity Developer", "Web3 Developer"],
+
+    status: "Completed",
+
+    featured: false,
 
     description:
-      "A backend-focused URL shortening service.",
+      "A decentralized task management application where users create, modify, complete and delete tasks through an Ethereum-compatible smart contract.",
 
-    links: {
-      live: "",
-      github: ""
-    }
+    technologies: [
+      "Solidity",
+      "Ethers.js",
+      "OpenZeppelin",
+      "Hardhat",
+      "MetaMask",
+      "JavaScript"
+    ],
+
+    highlights: [
+      "On-chain task management",
+      "Task ownership controls",
+      "Contract event emissions",
+      "MetaMask integration",
+      "OpenZeppelin ownership"
+    ],
+
+    impact:
+      "Demonstrates Solidity state management, mappings, structs, events, ownership rules and frontend-to-contract interaction.",
+
+    github:
+      "https://github.com/vishalmathuri/TaskManager",
+
+    live: ""
   }
 ];

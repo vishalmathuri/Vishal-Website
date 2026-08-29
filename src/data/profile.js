@@ -1,21 +1,16 @@
 export const profile = {
   name: "Vishal Kumar Mathuri",
 
-  headline: "AI • Full Stack • Blockchain Developer",
+  role: "Blockchain Developer",
+
+  specialization: "Ethereum / Solidity • Rust / Solana",
 
   bio:
-    "I build AI-powered applications, blockchain systems, backend services and modern full-stack products.",
+    "Blockchain Developer focused on Ethereum, Solidity, smart contracts, DeFi and Web3 applications, while building deeper expertise in Rust and Solana protocol development.",
 
-  email: [
-    "vishal789kumar@gmail.com",
-    "vishal789mathur@gmail.com",
-    "vishalkumarmathuri@gmail.com"
-  ],
+  email: "vishal789mathur@gmail.com",
 
   github: "https://github.com/vishalmathuri",
 
-  linkedin: "https://www.linkedin.com/in/vishal-mathuri",
-
-  availability:
-    "Open to opportunities in AI, Full Stack, Blockchain and related software engineering roles."
+  linkedin: "https://www.linkedin.com/in/vishal-mathuri"
 };

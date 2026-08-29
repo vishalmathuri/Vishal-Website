@@ -2,73 +2,101 @@ export const skillGroups = [
   {
     category: "Ethereum & Solidity",
     description:
-      "Primary blockchain focus with experience building smart contracts and EVM-based applications.",
+      "Primary blockchain development stack for smart contracts and EVM applications.",
+
     skills: [
       "Solidity",
       "Ethereum",
       "EVM",
       "Smart Contracts",
+      "ERC-20",
+      "ERC-721",
       "DeFi",
-      "Web3",
+      "NFT Protocols",
+      "Tokenization"
+    ]
+  },
+
+  {
+    category: "Smart Contract Engineering",
+    description:
+      "Development, testing, security and optimization of production-oriented smart contracts.",
+
+    skills: [
       "Foundry",
       "Hardhat",
       "OpenZeppelin",
-      "Ethers.js"
+      "ReentrancyGuard",
+      "AccessControl",
+      "Ownable",
+      "Pausable",
+      "Gas Optimization",
+      "Contract Testing"
     ]
   },
 
   {
-    category: "AI & LLM",
+    category: "Web3 Development",
     description:
-      "Building AI-powered applications and intelligent developer tools.",
-    skills: [
-      "OpenAI API",
-      "LangChain",
-      "RAG",
-      "Vector Databases",
-      "LLM Applications"
-    ]
-  },
+      "Connecting blockchain protocols with frontend and backend applications.",
 
-  {
-    category: "Full Stack",
-    description:
-      "Building complete web applications from frontend to backend.",
     skills: [
-      "React",
-      "JavaScript",
-      "Tailwind CSS",
+      "Ethers.js",
+      "Web3.js",
+      "MetaMask",
+      "React.js",
       "Node.js",
       "Express.js",
       "REST APIs",
-      "Authentication"
-    ]
-  },
-
-  {
-    category: "Backend",
-    description:
-      "Designing APIs and backend systems with scalable architecture.",
-    skills: [
-      "Node.js",
-      "Redis",
-      "Job Queues",
-      "Database Optimization",
-      "Authentication",
-      "API Architecture"
+      "IPFS",
+      "Pinata"
     ]
   },
 
   {
     category: "Rust & Solana",
     description:
-      "Additional experience with Rust and Solana program development.",
+      "Secondary specialization focused on blockchain and systems development.",
+
     skills: [
       "Rust",
       "Cargo",
       "Anchor",
       "Solana Programs",
       "Rust Backend"
+    ]
+  },
+
+  {
+    category: "Blockchain Concepts",
+    description:
+      "Protocol and decentralized-system concepts used across blockchain projects.",
+
+    skills: [
+      "DeFi Protocols",
+      "Distributed Systems",
+      "Wallet Integration",
+      "Protocol Design",
+      "Cross-Chain Concepts",
+      "Blockchain Security",
+      "Smart Contract Auditing"
+    ]
+  },
+
+  {
+    category: "Tools & Deployment",
+    description:
+      "Development, deployment and collaboration tools used throughout projects.",
+
+    skills: [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Ethereum Sepolia",
+      "Contract Verification",
+      "Vercel",
+      "Render",
+      "CI/CD"
     ]
   }
 ];

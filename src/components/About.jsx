@@ -3,22 +3,25 @@ function About() {
     {
       title: "Ethereum / Solidity",
       description:
-        "Smart contracts, EVM-based applications, DeFi, Web3 and decentralized systems."
+        "Primary specialization in Solidity smart contracts, EVM applications, DeFi protocols and Ethereum-based Web3 systems."
     },
+
     {
-      title: "AI",
+      title: "Smart Contract Engineering",
       description:
-        "LLM applications, RAG, LangChain and AI-powered tools."
+        "Foundry testing, security patterns, access control, invariant testing, protocol architecture and gas-conscious Solidity development."
     },
+
     {
-      title: "Full Stack / Backend",
+      title: "Web3 Development",
       description:
-        "React, Node.js, APIs, databases, SaaS and application architecture."
+        "Building complete decentralized applications with React, Node.js, Ethers.js, REST APIs, wallets and decentralized storage."
     },
+
     {
       title: "Rust / Solana",
       description:
-        "Rust, Cargo, Anchor and Solana program development."
+        "Developing Rust-based blockchain protocols and Solana programs using Cargo, Anchor, PDAs and Solana development tools."
     }
   ];
 
@@ -36,47 +39,49 @@ function About() {
 
         {/* Heading */}
         <h2 className="max-w-6xl text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-          Building at the intersection of{" "}
+          Building secure{" "}
           <span className="text-slate-400">
-            Blockchain, AI and Full Stack.
+            blockchain protocols and Web3 applications.
           </span>
         </h2>
 
-        {/* Content */}
         <div className="mt-14 grid gap-12 lg:grid-cols-2 lg:items-start">
 
           {/* Left side */}
           <div className="max-w-3xl space-y-7 text-lg leading-8 text-slate-400">
 
             <p>
-              I'm Vishal Kumar Mathuri, a developer with a strong focus on{" "}
+              I'm Vishal Kumar Mathuri, a Blockchain Developer with a
+              strong focus on{" "}
               <span className="font-medium text-slate-200">
-                Ethereum blockchain and Solidity development
+                Ethereum, Solidity and EVM-based development.
               </span>
-              , with additional experience across AI, backend engineering,
-              full-stack applications and Rust/Solana development.
             </p>
 
             <p>
-              My primary blockchain work has been centered around{" "}
+              My work includes smart contracts, DeFi protocols,
+              decentralized applications, NFT systems, token standards,
+              wallet integrations and Web3 infrastructure.
+            </p>
+
+            <p>
+              I focus on building secure and testable smart contracts using{" "}
               <span className="font-medium text-slate-200">
-                Ethereum, EVM-based applications, smart contracts, DeFi and
-                Web3
+                Foundry, Hardhat and OpenZeppelin
               </span>
-              , while I also explore AI-powered applications, backend systems
-              and complete web platforms.
+              , while also working across the frontend and backend layers
+              required to turn blockchain protocols into complete
+              applications.
             </p>
 
             <p>
-              I enjoy understanding systems from the foundation up — from
-              designing and developing smart contracts to building the
-              backend, frontend and AI components around them.
-            </p>
-
-            <p>
-              This portfolio brings together my professional experience,
-              projects, technical work, teaching activities and targeted
-              resumes in one place.
+              Alongside Ethereum development, I am building deeper expertise
+              in{" "}
+              <span className="font-medium text-slate-200">
+                Rust and Solana
+              </span>
+              , focusing on Solana programs, Anchor, PDAs and blockchain
+              protocol development.
             </p>
 
           </div>
