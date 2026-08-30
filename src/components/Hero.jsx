@@ -71,11 +71,13 @@ function Hero() {
               </a>
 
               <a
-                href="#resume"
-                className="rounded-xl border border-white/15 px-7 py-3.5 font-medium text-white transition hover:border-cyan-400/50 hover:text-cyan-300"
+              href="/Blockchain-Developer-Resume.pdf"  
+              target="_blank"  
+              rel="noreferrer"
+              className="rounded-xl border border-white/15 px-7 py-3.5 font-medium text-white transition hover:border-cyan-400/50 hover:text-cyan-300"
               >
-                View Resumes
-              </a>
+                View Resume
+</a>
             </div>
 
             {/* Social links */}
