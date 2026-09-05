@@ -125,7 +125,7 @@ function ProjectCard({ project, featured = false }) {
     >
 
       {/* Status */}
-      <div className="flex flex-wrap items-center justify-between gap-3">
+      
 
         <div className="flex flex-wrap gap-2">
           {project.roles.map((role) => (
@@ -137,18 +137,6 @@ function ProjectCard({ project, featured = false }) {
             </span>
           ))}
         </div>
-
-        <span
-          className={`text-xs font-medium ${
-            project.status === "Completed"
-              ? "text-emerald-400"
-              : "text-amber-400"
-          }`}
-        >
-          {project.status}
-        </span>
-
-      </div>
 
       {/* Title */}
       <h3

@@ -10,8 +10,6 @@ export const projects = [
 
     roles: ["Blockchain Developer", "Solidity Developer"],
 
-    status: "Completed",
-
     featured: true,
 
     description:
@@ -57,8 +55,6 @@ export const projects = [
 
     roles: ["Blockchain Developer", "Web3 Developer"],
 
-    status: "Completed",
-
     featured: true,
 
     description:
@@ -96,6 +92,49 @@ export const projects = [
   },
 
   {
+    id: "solana-crowdfunding",
+
+    title: "Solana Crowdfunding Protocol",
+
+    shortTitle: "Solana Crowdfunding",
+
+    category: ["Rust / Solana"],
+
+    roles: ["Rust Developer", "Blockchain Developer"],
+
+    featured: true,
+
+    description:
+      "Building a Rust and Solana crowdfunding protocol for campaign creation, SOL contributions, funding goals, deadlines, withdrawals and contributor refunds.",
+
+    technologies: [
+      "Rust",
+      "Solana",
+      "Anchor",
+      "PDAs",
+      "TypeScript",
+      "Wallet Adapter"
+    ],
+
+    highlights: [
+      "Campaign creation",
+      "SOL contributions",
+      "PDA-based state",
+      "Campaign authorization",
+      "Deadline handling",
+      "Contributor refunds"
+    ],
+
+    impact:
+      "Demonstrates Rust-based blockchain development, Solana account architecture and on-chain authorization using Anchor and PDAs.",
+
+    github:
+      "https://github.com/vishalmathuri/Solana-Crowdfunding-Protocol",
+
+    live: "https://solana-crowdfunding-protocol.vercel.app/"
+  },
+
+  {
     id: "cross-chain-protocol",
 
     title: "Cross-Chain Protocol",
@@ -105,8 +144,6 @@ export const projects = [
     category: ["Ethereum / Solidity", "Rust / Solana"],
 
     roles: ["Blockchain Developer", "Rust Developer"],
-
-    status: "In Development",
 
     featured: true,
 
@@ -140,51 +177,6 @@ export const projects = [
   },
 
   {
-    id: "solana-crowdfunding",
-
-    title: "Solana Crowdfunding Protocol",
-
-    shortTitle: "Solana Crowdfunding",
-
-    category: ["Rust / Solana"],
-
-    roles: ["Rust Developer", "Blockchain Developer"],
-
-    status: "In Development",
-
-    featured: true,
-
-    description:
-      "Building a Rust and Solana crowdfunding protocol for campaign creation, SOL contributions, funding goals, deadlines, withdrawals and contributor refunds.",
-
-    technologies: [
-      "Rust",
-      "Solana",
-      "Anchor",
-      "PDAs",
-      "TypeScript",
-      "Wallet Adapter"
-    ],
-
-    highlights: [
-      "Campaign creation",
-      "SOL contributions",
-      "PDA-based state",
-      "Campaign authorization",
-      "Deadline handling",
-      "Contributor refunds"
-    ],
-
-    impact:
-      "Demonstrates Rust-based blockchain development, Solana account architecture and on-chain authorization using Anchor and PDAs.",
-
-    github:
-      "https://github.com/vishalmathuri/Solana-Crowdfunding-Protocol",
-
-    live: ""
-  },
-
-  {
     id: "scai-warrior",
 
     title: "Scai Warrior — Web3 Telegram Game",
@@ -194,8 +186,6 @@ export const projects = [
     category: ["Ethereum / Solidity"],
 
     roles: ["Blockchain Developer", "Web3 Developer"],
-
-    status: "Completed",
 
     featured: false,
 
@@ -239,8 +229,6 @@ export const projects = [
 
     roles: ["Solidity Developer", "Blockchain Developer"],
 
-    status: "Completed",
-
     featured: false,
 
     description:
@@ -283,8 +271,6 @@ export const projects = [
 
     roles: ["Solidity Developer", "Blockchain Developer"],
 
-    status: "Completed",
-
     featured: false,
 
     description:
@@ -326,8 +312,6 @@ export const projects = [
     category: ["Ethereum / Solidity"],
 
     roles: ["Solidity Developer", "Web3 Developer"],
-
-    status: "Completed",
 
     featured: false,
 
