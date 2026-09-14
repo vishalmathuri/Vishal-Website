@@ -88,7 +88,7 @@ export const projects = [
       "https://github.com/vishalmathuri/NFT-Marketplace",
 
     live:
-      "https://nft-marketplace-ecru-rho.vercel.app"
+      "https://nft-marketplace-84ww.vercel.app/"
   },
 
   {
