@@ -105,7 +105,7 @@ export const projects = [
     featured: true,
 
     description:
-      "Building a Rust and Solana crowdfunding protocol for campaign creation, SOL contributions, funding goals, deadlines, withdrawals and contributor refunds.",
+      "A Rust and Solana crowdfunding protocol deployed on Devnet with campaign creation, SOL contributions, funding goals, deadlines, creator withdrawals, contributor refunds and Phantom wallet integration.",
 
     technologies: [
       "Rust",
@@ -137,7 +137,7 @@ export const projects = [
   {
     id: "cross-chain-protocol",
 
-    title: "Cross-Chain Protocol",
+    title: "LayerZero Cross-Chain Protocol",
 
     shortTitle: "Cross-Chain Protocol",
 
@@ -148,32 +148,39 @@ export const projects = [
     featured: true,
 
     description:
-      "Building a cross-chain protocol designed to connect EVM smart contracts with another blockchain environment through a relayer-based messaging architecture.",
+      "A bidirectional LayerZero V2 interoperability protocol connecting Ethereum Sepolia and Solana Devnet with application messaging, CCT OFT transfers and a unified MetaMask + Phantom frontend.",
 
     technologies: [
       "Solidity",
       "Rust",
-      "EVM",
-      "Cross-Chain Messaging",
-      "Relayer",
-      "Foundry"
+      "LayerZero V2",
+      "Ethereum",
+      "Solana",
+      "Anchor",
+      "Foundry",
+      "React",
+      "Ethers.js",
+      "Solana Web3.js"
     ],
 
     highlights: [
-      "Cross-chain messaging architecture",
-      "EVM smart-contract layer",
-      "Rust-based components",
-      "Relayer design",
-      "Message verification"
+      "Bidirectional application messaging",
+      "Bidirectional LayerZero OFT bridge",
+      "Ethereum Sepolia ↔ Solana Devnet",
+      "MetaMask + Phantom wallet integration",
+      "LayerZero fee quoting and delivery tracking",
+      "Phantom ALT compatibility workaround",
+      "Solana transaction simulation and replay protection"
     ],
 
     impact:
-      "Expands beyond single-chain application development into blockchain interoperability, protocol architecture and distributed message handling.",
+      "Demonstrates cross-chain protocol engineering across EVM and Solana, including peer validation, message verification, versioned transaction handling, wallet interoperability and end-to-end testnet deployment.",
 
     github:
       "https://github.com/vishalmathuri/Cross-Chain-Protocol",
 
-    live: ""
+    live:
+      "https://cross-chain-protocol.vercel.app/"
   },
 
   {
