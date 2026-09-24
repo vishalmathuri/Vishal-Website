@@ -222,7 +222,7 @@ export const projects = [
       "https://github.com/vishalmathuri/ScaiWarrior_bot",
 
     live:
-      "https://scai-warrior-bot.vercel.app"
+      "https://scai-warrior.vercel.app/"
   },
 
   {
