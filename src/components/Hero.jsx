@@ -12,8 +12,8 @@ function Hero() {
         <div className="absolute right-[10%] top-[30%] h-96 w-96 rounded-full bg-blue-500/5 blur-3xl" />
       </div>
 
-      <div className="relative mx-auto flex min-h-[calc(100vh-81px)] max-w-7xl items-center px-6 py-20">
-        <div className="grid w-full items-center gap-16 lg:grid-cols-2">
+      <div className="relative mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:flex lg:min-h-[calc(100vh-81px)] lg:items-center">
+        <div className="grid w-full items-center gap-12 lg:grid-cols-2 lg:gap-16">
 
           {/* Left content */}
           <div>
@@ -111,7 +111,7 @@ function Hero() {
           </div>
 
           {/* Right side - Profile image */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center pt-2 lg:justify-end lg:pt-0">
             <div className="relative">
 
               {/* Image glow */}
