@@ -349,5 +349,94 @@ export const projects = [
       "https://github.com/vishalmathuri/TaskManager",
 
     live: ""
+  },
+
+  {
+  id: "diagnostics-workflow-portal",
+
+  title: "Diagnostics Workflow Portal",
+
+  shortTitle: "Diagnostics Portal",
+
+  category: ["Full Stack"],
+
+  roles: ["Full Stack Developer"],
+
+  featured: false,
+
+  description:
+    "A full-stack diagnostics workflow application for sample registration, processing, result entry, reviewer approval and searchable approved-result history using synthetic diagnostic records.",
+
+  technologies: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "REST APIs",
+    "Docker"
+  ],
+
+  highlights: [
+    "Sample registration and status tracking",
+    "Staff and reviewer role separation",
+    "Result approval and rejection workflow",
+    "Approved-only searchable history",
+    "Ordered audit trail",
+    "Server-side validation",
+    "End-to-end workflow testing"
+  ],
+
+  impact:
+    "Demonstrates full-stack workflow engineering, role-based access, relational database integration, auditability and end-to-end API testing.",
+
+  github:
+    "https://github.com/vishalmathuri/diagnostics-workflow-portal",
+
+  live:
+    "https://diagnostics-workflow-portal-1.onrender.com/"
+},
+{
+  id: "field-screening-pwa",
+
+  title: "Field Screening PWA",
+
+  shortTitle: "Field Screening PWA",
+
+  category: ["Full Stack"],
+
+  roles: ["Full Stack Developer"],
+
+  featured: false,
+
+  description:
+    "A mobile-friendly field screening application designed for reliable data capture in low-connectivity environments with offline storage, synchronization and staff review workflows.",
+
+  technologies: [
+    "React.js",
+    "PWA",
+    "Node.js",
+    "REST APIs",
+    "Offline Storage",
+    "Cloudflare"
+  ],
+
+  highlights: [
+    "Offline draft storage",
+    "Input validation",
+    "Synchronization status",
+    "Automatic data synchronization",
+    "Staff review dashboard",
+    "Responsive mobile interface",
+    "Low-connectivity error handling"
+  ],
+
+  impact:
+    "Demonstrates offline-first application architecture, resilient synchronization and full-stack data workflows designed for unreliable network conditions.",
+
+  github:
+    "https://github.com/vishalmathuri/Field-Screening-PWA",
+
+  live:
+    "https://field-screening-pwa.vishalmathuri.workers.dev/"
   }
 ];

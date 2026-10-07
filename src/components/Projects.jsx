@@ -7,7 +7,8 @@ function Projects() {
   const filters = [
     "All",
     "Ethereum / Solidity",
-    "Rust / Solana"
+    "Rust / Solana",
+    "Full Stack"
   ];
 
   const filteredProjects =

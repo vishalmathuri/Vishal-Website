@@ -53,16 +53,16 @@ function Hero() {
               <span className="font-medium text-slate-200">
                 Ethereum, Solidity and the EVM
               </span>
-              , while expanding into blockchain protocol development
-              with{" "}
+              , while expanding my blockchain development work with{" "}
               <span className="font-medium text-slate-200">
                 Rust and Solana
               </span>
               .
             </p>
 
-            {/* CTA buttons */}
+            {/* Main buttons */}
             <div className="mt-9 flex flex-wrap gap-4">
+
               <a
                 href="#projects"
                 className="rounded-xl bg-cyan-400 px-7 py-3.5 font-medium text-slate-950 transition hover:bg-cyan-300"
@@ -71,17 +71,17 @@ function Hero() {
               </a>
 
               <a
-              href="/Blockchain-Developer-Resume.pdf"  
-              target="_blank"  
-              rel="noreferrer"
-              className="rounded-xl border border-white/15 px-7 py-3.5 font-medium text-white transition hover:border-cyan-400/50 hover:text-cyan-300"
+                href="#resume"
+                className="rounded-xl border border-white/15 px-7 py-3.5 font-medium text-white transition hover:border-cyan-400/50 hover:text-cyan-300"
               >
-                View Resume
-</a>
+                View Resumes
+              </a>
+
             </div>
 
             {/* Social links */}
-            <div className="mt-9 flex gap-7">
+            <div className="mt-9 flex flex-wrap gap-7">
+
               <a
                 href={profile.github}
                 target="_blank"
@@ -99,6 +99,14 @@ function Hero() {
               >
                 LinkedIn
               </a>
+
+              <a
+                href={`mailto:${profile.email}`}
+                className="text-slate-400 transition hover:text-cyan-400"
+              >
+                Email
+              </a>
+
             </div>
           </div>
 
@@ -106,10 +114,10 @@ function Hero() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
 
-              {/* Glow */}
+              {/* Image glow */}
               <div className="absolute inset-0 scale-110 rounded-full bg-cyan-400/10 blur-3xl" />
 
-              {/* Image */}
+              {/* Profile image */}
               <div className="relative h-64 w-64 overflow-hidden rounded-full border border-white/10 sm:h-80 sm:w-80 lg:h-[440px] lg:w-[440px]">
                 <img
                   src="/profile.png"

@@ -10,6 +10,9 @@ export const profile = {
 
   email: "vishal789mathur@gmail.com",
 
+  // Replace with your actual number, including country code
+  phone: "+919082135308",
+
   github: "https://github.com/vishalmathuri",
 
   linkedin: "https://www.linkedin.com/in/vishal-mathuri"
